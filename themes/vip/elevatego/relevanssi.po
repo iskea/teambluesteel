@@ -1,0 +1,321 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Elevate\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-08-14 14:06+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Mikko Saari <mikko@mikkosaari.fi>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: elevate.php:703
+msgid "There is no excerpt because this is a protected post."
+msgstr ""
+
+#: elevate.php:994
+msgid "Indexing complete!"
+msgstr ""
+
+#: elevate.php:1183
+msgid "Elevate Search Options"
+msgstr ""
+
+#: elevate.php:1294
+#, php-format
+msgid "<div id='message' class='update fade'><p>Term '%s' added to stopwords!</p></div>"
+msgstr ""
+
+#: elevate.php:1297
+#, php-format
+msgid "<div id='message' class='update fade'><p>Couldn't add term '%s' to stopwords!</p></div>"
+msgstr ""
+
+#: elevate.php:1306
+msgid "25 most common words in the index"
+msgstr ""
+
+#: elevate.php:1308
+msgid "These words are excellent stopword material. A word that appears in most of the posts in the database is quite pointless when searching. This is also an easy way to create a completely new stopword list, if one isn't available in your language. Click the icon after the word to add the word to the stopword list. The word will also be removed from the index, so rebuilding the index is not necessary."
+msgstr ""
+
+#: elevate.php:1331
+msgid "Add to stopwords"
+msgstr ""
+
+#: elevate.php:1344
+msgid "25 most popular queries"
+msgstr ""
+
+#: elevate.php:1356
+msgid "Recent queries that got 0 hits"
+msgstr ""
+
+#: elevate.php:1491
+msgid "Title boost:"
+msgstr ""
+
+#: elevate.php:1492
+#, php-format
+msgid "Default: %d. 0 means titles are ignored, 1 means no boost, more than 1 gives extra value."
+msgstr ""
+
+#: elevate.php:1493
+msgid "Tag boost:"
+msgstr ""
+
+#: elevate.php:1494
+#, php-format
+msgid "Default: %d. 0 means tags are ignored, 1 means no boost, more than 1 gives extra value."
+msgstr ""
+
+#: elevate.php:1495
+msgid "Comment boost:"
+msgstr ""
+
+#: elevate.php:1496
+#, php-format
+msgid "Default: %d. 0 means comments are ignored, 1 means no boost, more than 1 gives extra value."
+msgstr ""
+
+#: elevate.php:1497
+msgid "Use search for admin:"
+msgstr ""
+
+#: elevate.php:1498
+msgid "If checked, Elevate will be used for searches in the admin interface"
+msgstr ""
+
+#: elevate.php:1499
+msgid "Restrict search to these categories and tags:"
+msgstr ""
+
+#: elevate.php:1500
+msgid "Enter a comma-separated list of category and tag IDs to restrict search to those categories or tags. You can also use <code>&lt;input type='hidden' name='cat' value='list of cats and tags' /&gt;</code> in your search form. The input field will overrun this setting."
+msgstr ""
+
+#: elevate.php:1501
+msgid "Exclude these categories and tags from search:"
+msgstr ""
+
+#: elevate.php:1502
+msgid "Enter a comma-separated list of category and tag IDs that are excluded from search results. This only works here, you can't use the input field option (WordPress doesn't pass custom parameters there)."
+msgstr ""
+
+#: elevate.php:1505
+msgid "Exclude these posts/pages from search:"
+msgstr ""
+
+#: elevate.php:1506
+msgid "Enter a comma-separated list of post/page IDs that are excluded from search results. This only works here, you can't use the input field option (WordPress doesn't pass custom parameters there)."
+msgstr ""
+
+#: elevate.php:1507
+msgid "Index and search your posts' tags:"
+msgstr ""
+
+#: elevate.php:1508
+msgid "If checked, Elevate will also index and search the tags of your posts. Remember to rebuild the index if you change this option!"
+msgstr ""
+
+#: elevate.php:1509
+msgid "Index and search these comments:"
+msgstr ""
+
+#: elevate.php:1510
+msgid "Elevate will index and search ALL (all comments including track- &amp; pingbacks and custom comment types), NONE (no comments) or NORMAL (manually posted comments on your blog).<br />Remember to rebuild the index if you change this option!"
+msgstr ""
+
+#: elevate.php:1511
+msgid "all"
+msgstr ""
+
+#: elevate.php:1512
+msgid "normal"
+msgstr ""
+
+#: elevate.php:1513
+msgid "none"
+msgstr ""
+
+#: elevate.php:1516
+msgid "Create custom search result snippets:"
+msgstr ""
+
+#: elevate.php:1517
+msgid "If checked, Elevate will create excerpts that contain the search term hits. To make them work, make sure your search result template uses the_excerpt() to display post excerpts."
+msgstr ""
+
+#: elevate.php:1518
+msgid "Length of the snippet:"
+msgstr ""
+
+#: elevate.php:1519
+msgid "This must be an integer."
+msgstr ""
+
+#: elevate.php:1520
+msgid "words"
+msgstr ""
+
+#: elevate.php:1521
+msgid "characters"
+msgstr ""
+
+#: elevate.php:1522
+msgid "Keep a log of user queries:"
+msgstr ""
+
+#: elevate.php:1523
+msgid "If checked, Elevate will log user queries."
+msgstr ""
+
+#: elevate.php:1524
+msgid "Highlight query terms in search results:"
+msgstr ""
+
+#: elevate.php:1525
+msgid "Highlighting isn't available unless you use custom snippets"
+msgstr ""
+
+#: elevate.php:1526
+msgid "Highlight query terms in result titles too:"
+msgstr ""
+
+#: elevate.php:1529
+msgid "Save"
+msgstr ""
+
+#: elevate.php:1530
+msgid "Building the index and indexing options"
+msgstr ""
+
+#: elevate.php:1531
+msgid "After installing the plugin, you need to build the index. This generally needs to be done once, you don't have to re-index unless something goes wrong. Indexing is a heavy task and might take more time than your servers allow. If the indexing cannot be finished - for example you get a blank screen or something like that after indexing - you can continue indexing from where you left by clicking 'Continue indexing'. Clicking 'Build the index' will delete the old index, so you can't use that."
+msgstr ""
+
+#: elevate.php:1532
+msgid "So, if you build the index and don't get the 'Indexing complete' in the end, keep on clicking the 'Continue indexing' button until you do. On my blogs, I was able to index ~400 pages on one go, but had to continue indexing twice to index ~950 pages."
+msgstr ""
+
+#: elevate.php:1533
+msgid "Save indexing options and build the index"
+msgstr ""
+
+#: elevate.php:1534
+msgid "Continue indexing"
+msgstr ""
+
+#: elevate.php:1535
+msgid "No highlighting"
+msgstr ""
+
+#: elevate.php:1536
+msgid "Text color"
+msgstr ""
+
+#: elevate.php:1537
+msgid "Background color"
+msgstr ""
+
+#: elevate.php:1538
+msgid "CSS Style"
+msgstr ""
+
+#: elevate.php:1539
+msgid "CSS Class"
+msgstr ""
+
+#: elevate.php:1541
+msgid "Text color for highlights:"
+msgstr ""
+
+#: elevate.php:1542
+msgid "Background color for highlights:"
+msgstr ""
+
+#: elevate.php:1543
+msgid "CSS style for highlights:"
+msgstr ""
+
+#: elevate.php:1544
+msgid "CSS class for highlights:"
+msgstr ""
+
+#: elevate.php:1546
+#: elevate.php:1547
+msgid "Use HTML color codes (#rgb or #rrggbb)"
+msgstr ""
+
+#: elevate.php:1548
+msgid "You can use any CSS styling here, style will be inserted with a &lt;span&gt;"
+msgstr ""
+
+#: elevate.php:1549
+msgid "Name a class here, search results will be wrapped in a &lt;span&gt; with the class"
+msgstr ""
+
+#: elevate.php:1551
+msgid "What to include in the index"
+msgstr ""
+
+#: elevate.php:1552
+msgid "Everything"
+msgstr ""
+
+#: elevate.php:1553
+msgid "Just posts"
+msgstr ""
+
+#: elevate.php:1554
+msgid "Just pages"
+msgstr ""
+
+#: elevate.php:1556
+msgid "Custom fields to index:"
+msgstr ""
+
+#: elevate.php:1557
+msgid "A comma-separated list of custom field names to include in the index."
+msgstr ""
+
+#: elevate.php:1559
+msgid "Show breakdown of search hits in excerpts:"
+msgstr ""
+
+#: elevate.php:1560
+msgid "Check this to show more information on where the search hits were made. Requires custom snippets to work."
+msgstr ""
+
+#: elevate.php:1561
+msgid "The breakdown format:"
+msgstr ""
+
+#: elevate.php:1562
+msgid "Use %body%, %title%, %tags%, %comments% and %score% to display the number of hits and the document weight."
+msgstr ""
+
+#: elevate.php:1564
+msgid "When to use fuzzy matching?"
+msgstr ""
+
+#: elevate.php:1565
+msgid "When straight search gets no hits"
+msgstr ""
+
+#: elevate.php:1566
+msgid "Always"
+msgstr ""
+
+#: elevate.php:1567
+msgid "Don't use fuzzy search"
+msgstr ""
+
+#: elevate.php:1568
+msgid "Straight search matches just the term. Fuzzy search matches everything that begins or ends with the search term."
+msgstr ""
+

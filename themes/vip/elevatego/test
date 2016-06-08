@@ -1,0 +1,44 @@
+			'value' => urlencode( json_encode( array(
+				array(
+					'icon_typicons'  => 'picon picon-0887-knife-kitchen-utensils',
+					'name'  => 'Buying your first home',
+					'description'   => 'http://www.macquarie.com/buying-your-first-home'
+				),
+				array(
+					'icon_typicons'  => 'picon picon-0431-money-atm-machine-withdrawal-cash',
+					'name'  => 'Buying your next home',
+					'description'   => 'http://www.macquarie.com/buying-your-first-home'
+				),
+			) ) ),
+			'params' => array(
+				array(
+					'type' => 'iconpicker',
+					'heading' => __( 'Icon', 'js_composer' ),
+					'param_name' => 'icon_typicons',
+					'value' => 'picon picon-0431-money-atm-machine-withdrawal-cash', // default value to backend editor admin_label
+					'settings' => array(
+						'emptyIcon' => false, // default true, display an "EMPTY" icon?
+						'type' => 'typicons',
+						'iconsPerPage' => 4000, // default 100, how many icons per/page to display
+					),
+					'dependency' => array(
+						'element' => 'type',
+						'value' => 'typicons',
+					),
+					'description' => __( 'Select icon from library.', 'js_composer' ),
+				),
+				array(
+					'type' => 'textfield',
+					'heading' => __( 'Name', 'js_composer' ),
+					'param_name' => 'name',
+					'value' => '',
+					'description' => __( 'Menu Name', 'js_composer' )
+				),
+				array(
+					'type' => 'exploded_textarea',
+					'heading' => __( 'description', 'js_composer' ),
+					'param_name' => 'Description',
+					'value' => '',
+					'description' => __( 'Menu Description', 'js_composer' )
+				)
+			)

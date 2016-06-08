@@ -1,0 +1,71 @@
+# Copyright (C) 2015 Graphiq Search
+# This file is distributed under the same license as the Graphiq Search package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Graphiq Search 3.1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/graphiq-search\n"
+"POT-Creation-Date: 2015-10-25 12:24-0700\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-10-25 12:25-0700\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.6\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+
+#: graphiq-search.php:57
+msgid "Add Visualizations"
+msgstr "Add Visualizations"
+
+#. Plugin Name of the plugin/theme
+#: graphiq-search.php:66 graphiq-search.php:120 views/options.php:2
+msgid "Graphiq Search"
+msgstr "Graphiq Search"
+
+#: graphiq-search.php:119
+msgid "Graphiq Search Options"
+msgstr "Graphiq Search Options"
+
+#: graphiq-search.php:143
+msgid "Your API Key"
+msgstr "Your API Key"
+
+#: views/meta-box.php:5
+msgid "Search"
+msgstr "Search"
+
+#: views/meta-box.php:6
+msgid "Search for content"
+msgstr "Search for content"
+
+#: views/options.php:4
+msgid ""
+"Premium partners can enter their API key below. This will give you priority "
+"access to new features and the ability to request custom visuals from our "
+"team of graphics specialists. Interested in becoming a premium partner?"
+msgstr ""
+"Premium partners can enter their API key below. This will give you priority "
+"access to new features and the ability to request custom visuals from our "
+"team of graphics specialists. Interested in becoming a premium partner?"
+
+#: views/options.php:5
+msgid "Learn more about our Journalist Solutions"
+msgstr "Learn more about our Journalist Solutions"
+
+#. Description of the plugin/theme
+msgid ""
+"Discover and embed interactive visualizations on people, organizations, "
+"products, and more."
+msgstr ""
+"Discover and embed interactive visualizations on people, organizations, "
+"products, and more."
+
+#. Author of the plugin/theme
+msgid "Graphiq"
+msgstr "Graphiq"
+
+#. Author URI of the plugin/theme
+msgid "https://www.graphiq.com"
+msgstr "https://www.graphiq.com"

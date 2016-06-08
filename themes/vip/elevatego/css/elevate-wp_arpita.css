@@ -1,0 +1,672 @@
+/* ARPITA'S COMPONENT STYLES
+-------------------------------------------------- */
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.margin-auto {
+	margin: 0 auto;
+}
+
+.margin-top-10px {
+	margin-top: -10px;
+}
+
+.padding-0 {
+	padding: 0 !important;
+}
+
+.padding-left-0 {
+	padding-left: 0 !important;
+}
+
+.padding-right-0 {
+	padding-right: 0 !important;
+}
+
+.padding-lr-10 {
+	padding: 0 10px;
+}
+
+.padding-lr-60 {
+	padding: 0 60px;
+}
+
+.lr-padding-3 {
+	padding-left: 3em;
+	padding-right: 3em;
+}
+
+.padding-top-15 {
+	padding-top: 15px;
+}
+
+.padding-top-25 {
+	padding-top: 25px;
+}
+
+.padding-top-40 {
+	padding-top: 40px;
+}
+
+.padding-left-20 {
+	padding-left: 20px;
+}
+
+.padding-right-20 {
+	padding-right: 20px;
+}
+
+.margin-left-20 {
+	margin-left: 20px;
+}
+
+.margin-right-20 {
+	margin-right: 20px;
+}
+
+.font-20 {
+	font-size: 20px !important;
+	font-weight: 200;
+}
+
+.font-28 {
+	font-size: 28px !important;
+}
+
+.font-30 {
+	font-size: 30px !important;
+}
+
+.font-40 {
+	font-size: 40px !important;
+}
+
+h3 strong {
+	font-weight: 400;
+}
+
+.small strong,
+small strong {
+	font-weight: 500 !important;
+}
+
+.border-grey {
+	border: 1px solid #ECECEC;
+}
+
+.top-border-primary {
+	border-top: 5px solid #00A1E0;
+}
+
+.top-border-success {
+	border-top: 5px solid #B8E986;
+}
+
+.contact-box {
+	min-height: 260px;
+	padding: 40px;
+}
+
+[data-toggle="modal"] {
+	cursor: pointer;
+}
+
+/* Progress Button styles
+-------------------------------------------------- */
+
+.meter {
+	height: 5px; /* Can be anything */
+	position: relative;
+	margin: -2px 0 20px 0; /* Just for demo spacing */
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	-webkit-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+	-moz-box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+	box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+}
+
+.meter > span {
+	display: block;
+	height: 100%;
+	-webkit-border-top-right-radius: 0;
+	-webkit-border-bottom-right-radius: 4px;
+	-moz-border-radius-topright: 0;
+	-moz-border-radius-bottomright: 4px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 4px;
+	-webkit-border-top-left-radius: 0;
+	-webkit-border-bottom-left-radius: 4px;
+	-moz-border-radius-topleft: 0;
+	-moz-border-radius-bottomleft: 4px;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 4px;
+	background-color: rgb(43, 194, 83);
+	background-image: -webkit-gradient(
+			linear,
+			left bottom,
+			left top,
+			color-stop(0, rgb(43, 194, 83)),
+			color-stop(1, rgb(84, 240, 84))
+	);
+	background-image: -moz-linear-gradient(
+			center bottom,
+			rgb(43, 194, 83) 37%,
+			rgb(84, 240, 84) 69%
+	);
+	-webkit-box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3),
+	inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3),
+	inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+	box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3),
+	inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+	position: relative;
+	overflow: hidden;
+}
+
+.meter > span:after, .animate > span > span {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-image: -webkit-gradient(linear, 0 0, 100% 100%,
+	color-stop(.25, rgba(255, 255, 255, .2)),
+	color-stop(.25, transparent), color-stop(.5, transparent),
+	color-stop(.5, rgba(255, 255, 255, .2)),
+	color-stop(.75, rgba(255, 255, 255, .2)),
+	color-stop(.75, transparent), to(transparent)
+	);
+	background-image: -moz-linear-gradient(
+			-45deg,
+			rgba(255, 255, 255, .2) 25%,
+			transparent 25%,
+			transparent 50%,
+			rgba(255, 255, 255, .2) 50%,
+			rgba(255, 255, 255, .2) 75%,
+			transparent 75%,
+			transparent
+	);
+	z-index: 1;
+	-webkit-background-size: 50px 50px;
+	-moz-background-size: 50px 50px;
+	-webkit-animation: move 2s linear infinite;
+	-webkit-border-top-right-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+	-moz-border-radius-topright: 8px;
+	-moz-border-radius-bottomright: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	-webkit-border-top-left-radius: 20px;
+	-webkit-border-bottom-left-radius: 20px;
+	-moz-border-radius-topleft: 20px;
+	-moz-border-radius-bottomleft: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	overflow: hidden;
+}
+
+.animate > span:after {
+	display: none;
+}
+
+@-webkit-keyframes move {
+	0% {
+		background-position: 0 0;
+	}
+	100% {
+		background-position: 50px 50px;
+	}
+}
+
+.nostripes > span > span, .nostripes > span:after {
+	-webkit-animation: none;
+	background-image: none;
+}
+
+.blue-progress > span {
+	background-color: #0073C5;
+	background-image: linear-gradient(to bottom, #0073C5, #0073C5);
+}
+
+/* Sticky Footer
+-------------------------------------------------- */
+.footer-field {
+	padding: 0 10px !important;
+}
+
+/* MODAL STYLES
+-------------------------------------------------- */
+
+.tile-modal {
+	cursor: pointer;
+}
+
+.modal-triangle,
+.modal-triangle-small {
+	display: inline-block;
+	position: relative;
+}
+
+.modal-triangle-small {
+	float: right;
+	z-index: 100;
+}
+
+.modal-triangle:after {
+	content: '';
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 0;
+	height: 0;
+	border-top: 100px solid #0099CA;
+	border-right: 100px solid transparent;
+	border-bottom: 0 solid transparent;
+	border-left: 0 solid transparent;
+}
+
+.modal-triangle-small:after {
+	content: '';
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 0;
+	height: 0;
+	border-top: 60px solid #0099CA;
+	border-right: 0 solid transparent;
+	border-bottom: 0 solid transparent;
+	border-left: 60px solid transparent;
+}
+
+.modal-triangle-green:after {
+	border-top: 100px solid #7CD420;
+	border-right: 100px solid transparent;
+	border-bottom: 0 solid transparent;
+	border-left: 0 solid transparent;
+}
+
+.modal-triangle-small-green:after {
+	border-top: 60px solid #7CD420;
+	border-right: 0 solid transparent;
+	border-bottom: 0 solid transparent;
+	border-left: 60px solid transparent;
+}
+
+.modal-triangle .picon {
+	z-index: 100;
+	font-size: 40px;
+	top: 10px;
+	left: 10px;
+}
+
+.modal-triangle-small .picon {
+	z-index: 100;
+	font-size: 25px;
+	margin-top: 5px;
+	right: 5px;
+	position: absolute;
+}
+
+.modal-dialog {
+	width: 60%;
+}
+
+.modal-content {
+	border-radius: 0;
+	border: 0 none;
+	background: transparent;
+	box-shadow: none;
+}
+
+.modal-header {
+	border: 0 none;
+}
+
+.modal-header .close {
+	top: 10px;
+	position: absolute;
+	z-index: 10;
+	right: 10px;
+}
+
+.close,
+.close:focus,
+.close:hover {
+	font-size: 100px;
+	font-weight: normal;
+	text-shadow: none;
+	color: #4A4A4A;
+	opacity: 1.0;
+	filter: alpha(opacity=100);
+	outline: none;
+	line-height: 30px;
+	margin-top: 30px !important;
+}
+
+.close-text {
+	font-size: 18px;
+}
+
+.modal-body {
+	padding: 0 !important;
+}
+
+.modal-title-container {
+	padding-top: 40px;
+}
+
+.modal-title-box {
+	font-weight: 700;
+	background-color: #FFFFFF;
+	padding: 10px 20px 10px 10px;
+	font-size: 18px;
+	line-height: 20px;
+	margin-left: -10px;
+}
+
+.right-angled-border {
+	position: relative;
+	font-size: 0px;
+	line-height: 0%;
+	width: 0px;
+	border-top: 44px solid #7CD420;
+	border-right: 20px solid #FFFFFF;
+	top: 14px;
+}
+
+.right-angled-border:before {
+	position: relative;
+	font-family: 'picons_thin';
+	content: '\eba3';
+	font-size: 26px;
+	color: #FFFFFF;
+	padding: 9px;
+	top: -10px;
+}
+
+.right-angled-border-primary {
+	border-top: 44px solid #0099CA;
+}
+
+.right-angled-border-primary:before {
+	content: "\e933";
+}
+
+.modal-content-block {
+	padding-left: 100px !important;
+}
+
+.modal-body h2 {
+	font-weight: 200;
+}
+
+.modal-body .feature-item {
+	display: inline-block;
+	width: 130px;
+	height: 130px;
+	padding: 35px 10px;
+	margin: 15px 10px;
+	background-color: rgba(255, 255, 255, 1.0);
+}
+
+.modal-body .feature-item .picon {
+	font-size: 60px;
+	top: -5px;
+}
+
+/*.modal-body .btn {
+	padding: 18px 45px !important;
+}*/
+
+.greywhite-grand-bg {
+	background: #B9B9B7;
+	background: -webkit-linear-gradient(#B9B9B7, #F5EFEF, #FEFCFD, #FFFFFF); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#B9B9B7, #F5EFEF, #FEFCFD, #FFFFFF); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#B9B9B7, #F5EFEF, #FEFCFD, #FFFFFF); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#B9B9B7, #F5EFEF, #FEFCFD, #FFFFFF); /* Standard syntax */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#B9B9B7, endColorstr=#FFFFFF)";
+}
+
+.bg-white-70 {
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+.bg-white-90 {
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+.bg-black-70 {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.bg-black-90 {
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+.bg-blue-80 {
+	background-color: rgba(199, 234, 248, 0.8);
+}
+
+.modal-chat {
+	position: relative;
+}
+
+.modal-chat-box {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.modal .chat-thumbnail {
+	margin-top: -25px;
+	margin-left: -50px;
+}
+
+.modal-chat-text {
+	margin-left: -10px;
+}
+
+#fintalk .picon {
+	position: relative;
+	top: -5px;
+}
+
+/* OFFER INFO FEATURE BOX STYLES
+-------------------------------------------------- */
+
+.offer-info .offer-body {
+	min-height: 485px;
+	padding: 40px;
+	overflow: hidden;
+}
+
+.offer-info .offer-body-small {
+	min-height: 180px;
+}
+
+/* FORM VALIDATION STYLES
+-------------------------------------------------- */
+/* ----------------- Form ----------------- */
+
+form .errorMessage {
+	position: relative;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+}
+
+/* ----------- jQuery Validation ----------- */
+
+form label.error {
+	float: none;
+	background-color: #FC0F3A;
+	color: #FFFFFF;
+	display: block;
+	padding-left: 20px;
+	font-weight: 300;
+	position: relative;
+}
+
+#subscriptionEmailForm label.error {
+	position: absolute;
+	width: 297px;
+}
+
+form input.error {
+	border: 1px solid #FC0F3A !important;
+	color: #FC0F3A;
+}
+
+.error-icon {
+	margin-right: 20px;
+	margin-top: -60px;
+	position: absolute !important;
+	z-index: 100;
+	font-size: 18px;
+	right: 0;
+	color: #FC0F3A;
+}
+
+form textarea.error {
+	border: 1px solid #FC0F3A !important;
+	color: red;
+}
+
+.author-tile .tile-body {
+	padding-bottom: 0;
+}
+
+/*-----------------------Wordpress CSS ------------------------------*/
+
+.featured-image-widget {
+	height: 369px;
+	background-size: cover;
+}
+
+.chat-floatover {
+	z-index: 100;
+
+}
+
+.promo-feature-chat {
+	padding-bottom: 0 !important;
+}
+
+.learn-more {
+	position: absolute;
+	bottom: 30px;
+}
+
+.learn-more-chat-position {
+	position: absolute;
+	top: 250px;
+}
+
+.chat-text-fixed-width {
+	width: 110px;
+}
+
+.learn-more-event-position {
+	position: absolute;
+	top: 350px;
+}
+
+.remove-added-margin {
+	margin: 0 auto;
+}
+
+.tiles-product-streched {
+	bottom: auto !important;
+}
+
+@media (min-width: 992px) {
+	.chat-floatover {
+		left: 150%;
+		top: 0;
+		z-index: 100;
+	}
+
+	.chat-floatover-online {
+		left: 185%;
+		top: 0;
+		position:relative;
+		z-index: 100;
+	}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	.learn-more {
+		position: relative;
+		bottom: 0;
+	}
+
+	.learn-more-event-position {
+		position: relative;
+		top: 0;
+		padding-bottom: 10px;
+	}
+}
+
+@media only screen and (min-width: 370px) and (max-width: 768px) {
+	.learn-more-chat-position {
+		position: relative;
+		top: 0;
+		padding-bottom: 10px;
+	}
+
+	.learn-more {
+		position: relative;
+		bottom: 0;
+	}
+
+	.learn-more-event-position {
+		position: relative;
+		top: 0;
+		padding-bottom: 10px;
+	}
+
+}
+
+@media (min-width: 720px) and (max-width: 1024px) {
+	div.vertical-tab-bg {
+		min-height: 1000px;
+		height: 1000px !important;;
+
+	}
+
+	.hero-image-static-height {
+		height: 1000px !important;
+	}
+
+}
+
+@media all and (min-width: 1025px) {
+	div.vertical-tab-bg {
+		min-height: 800px;
+		height: 800px !important;;
+
+	}
+
+	.hero-image-static-height {
+		height: 800px !important;
+	}
+
+}
+
+/*-----------------------Table styles ------------------------------*/
+
+.table {
+	min-width: 1170px;
+}

@@ -1,0 +1,84 @@
+/* SIMON'S COMPONENT STYLES
+-------------------------------------------------- */
+.hero-image-sim {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	height: auto;
+	z-index: -1; /* EK: bring image to the back */
+}
+
+.nav > li {
+	z-index: 99;
+}
+
+.column-content .col-lg-1,
+.column-content .col-lg-10,
+.column-content .col-lg-11,
+.column-content .col-lg-12,
+.column-content .col-lg-2,
+.column-content .col-lg-3,
+.column-content .col-lg-4,
+.column-content .col-lg-5,
+.column-content .col-lg-6,
+.column-content .col-lg-7,
+.column-content .col-lg-8,
+.column-content .col-lg-9,
+.column-content .col-md-1,
+.column-content .col-md-10,
+.column-content .col-md-11,
+.column-content .col-md-12,
+.column-content .col-md-2,
+.column-content .col-md-3,
+.column-content .col-md-4,
+.column-content .col-md-5,
+.column-content .col-md-6,
+.column-content .col-md-7,
+.column-content .col-md-8,
+.column-content .col-md-9,
+.column-content .col-sm-1,
+.column-content .col-sm-10,
+.column-content .col-sm-11,
+.column-content .col-sm-12,
+.column-content .col-sm-2,
+.column-content .col-sm-3,
+.column-content .col-sm-4,
+.column-content .col-sm-5,
+.column-content .col-sm-6,
+.column-content .col-sm-7,
+.column-content .col-sm-8,
+.column-content .col-sm-9,
+.column-content .col-xs-1,
+.column-content .col-xs-10,
+.column-content .col-xs-11,
+.column-content .col-xs-12,
+.column-content .col-xs-2,
+.column-content .col-xs-3,
+.column-content .col-xs-4,
+.column-content .col-xs-5,
+.column-content .col-xs-6,
+.column-content .col-xs-7,
+.column-content .col-xs-8,
+.column-content .col-xs-9 {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+@media (min-width: 968px) {
+	.container.nav-wider {
+		width: 950px;
+	}
+}
+
+@media (min-width: 1192px) {
+	.container.nav-wider {
+		width: 1225px;
+	}
+}
+
+@media (min-width: 1400px) {
+	.container.nav-wider {
+		width: 1225px;
+	}
+}

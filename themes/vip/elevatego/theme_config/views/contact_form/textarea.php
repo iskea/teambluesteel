@@ -1,0 +1,2 @@
+<label for="<?php echo esc_attr($name)?>"><?php echo esc_attr($label)?></label>
+<textarea class="form-input" id="<?php echo esc_attr($name)?>" name="<?php echo esc_attr($name)?>" placeholder="<?php echo esc_attr($placeholder)?>"  <?php if(!empty($required)) echo 'data-parsley-required="true"'; ?> data-parsley-error-message="<?php _e('Message is required','duality');?>"></textarea>

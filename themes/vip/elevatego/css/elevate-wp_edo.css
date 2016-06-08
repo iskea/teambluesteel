@@ -1,0 +1,466 @@
+/* EDO'S COMPONENT STYLES
+-------------------------------------------------- */
+
+.btn-social-transparent {
+	color: #BAE885;
+	border: none;
+	border: 1px solid #BAE885 !important;
+	border-radius: 25px;
+}
+
+.btn-social-transparent:focus, .btn-social-transparent.focus {
+	color: #BAE885;
+	background-color: rgba(255,255,255,0.5);
+	border-color: #0083D4;
+}
+
+.btn-social-transparent:hover {
+	background-color: rgba(255,255,255,0.5);
+	color: #BAE885;
+	border-color: #0083D4;
+}
+
+.btn-social-transparent:active, .btn-social-transparent.active {
+	background-color: rgba(255,255,255,0.5);
+	color: #BAE885;
+	border-color: #0083D4;
+}
+
+
+/* Lifestage */
+
+.parallax-bg {
+	height: 100%;
+
+	/* text-indent: -9999px; */
+
+	/* fix background */
+	/*background-attachment: fixed;*/
+
+	/* center it */
+	background-position: center center;
+
+	/* Scale it nicely to the element */
+	background-size: cover;
+
+/* just make it look a bit better ;) */
+&:nth-child(2n) {
+	 box-shadow: inset 0 0 1em #111;
+ }
+}
+
+.lifestage-feature {
+	margin: 10px auto;
+	background-repeat: no-repeat;
+	background-position: 100%;
+	position:relative;
+}
+
+.lifestage-feature.fixed-height {
+	min-height: 800px;
+}
+
+.lifestage-feature .author-pic{
+	margin-left:-80px;
+	margin-top:-100px;
+}
+
+.lifestage-stick-to-bottom{
+	position:absolute;
+	bottom:0;
+}
+
+.lifestage-stick-to-bottom .lifestage-feature-content{
+	position:absolute;
+	bottom:0;
+}
+
+.lifestage-feature .bookmark-icon {
+	font-size: 46px;
+	position: absolute;
+	top: 0;
+	right: 15px;
+	left: initial;
+}
+
+.left{left:0}
+.right{right:0}
+
+.feature-expertise-label{
+	padding-top:8px;
+	padding-bottom:8px;
+	background-color:#BAE885;
+	font-weight:bold;
+}
+
+.article-title,.article-subtitle{
+	display: block;
+}
+
+.article-title{
+	font-weight:bold;
+}
+
+/* Lifestage category */
+
+.static-columns .col-md-6 .tile-body{
+	width: 70%;
+}
+
+/* TOOLS & CALCS LANDING PAGE TILES */
+.static-columns .tile-body{
+	position: absolute;
+	bottom:0;
+}
+
+.static-columns h3{
+	font-weight:bold;
+}
+.fixed-height-300 {
+	min-height:300px;
+}
+.fixed-height-380 {
+	min-height:380px;
+	padding-bottom: 0;
+}
+
+.fixed-height-420 {
+	min-height:420px;
+}
+
+.fixed-height-620 {
+	min-height:620px;
+}
+
+/* CALCULATOR PAGE */
+.calculator.calculator-page{
+	margin-top: 8em;
+	margin-left: -4em;
+}
+
+/* PRODUCT CAROUSEL */
+/* Additional features vertical tab */
+div.additional-features{
+	position: relative;
+}
+div.additional-features div.vertical-tab{
+	position: absolute;
+	bottom:2em;
+	right:2em;
+}
+div.additional-features div.vertical-tab-menu div.list-group > a {
+	margin-right:4px;
+	padding: 15px 25px;
+	border-bottom: solid 1px #efefef;
+	min-height: 88px;
+}
+div.additional-features div.vertical-tab-menu div.list-group > a.active {
+	margin-right:0;
+}
+
+div.additional-features div.vertical-tab-menu div.list-group > a.active {
+	border: none;
+	border-right: 4px solid #00A1E1;
+}
+
+div.additional-features div.vertical-tab-menu div.list-group > a .icon {
+	float: left;
+	width: 25%;
+}
+
+div.additional-features div.vertical-tab-menu div.list-group > a .caption {
+	margin-left: 25%;
+	width: 75%;
+}
+
+@keyframes fade-in {
+	from {
+		color: transparent;
+		opacity: 0;
+	}
+
+	to {
+		color: #FFFFFF;
+		opacity: 1;
+	}
+}
+
+div.additional-features div.vertical-tab-content {
+	width: 75%;
+	animation: fade-in 200ms;
+}
+
+.additional-features.dark-gradient-btm:before {
+	content: '';position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1) );
+}
+
+/* OFFER INFO FEATURE BOX STYLES
+-------------------------------------------------- */
+
+.offer-info .offer-body {
+	height:485px;
+	padding:40px;
+	overflow: hidden;
+}
+
+.offer-info .offer-body-small-top {
+	height:305px;
+}
+.offer-info .offer-body-small-bottom {
+	height:180px;
+}
+
+/* PRODUCT FEATURE */
+.product-feature h1{margin-top:4px;}
+
+/* FEATURE TILE */
+.feature-tile .plus-sign-icon a span {
+	background-color:white;
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+}
+
+/* EXPERTISE HUB */
+.pull-up-1-5em{
+	margin-top:-1.5em;
+}
+.pull-up-2em{
+	margin-top:-2em;
+}
+.pull-up-3em{
+	margin-top:-3em;
+}
+.pull-up-4em{
+	margin-top:-4em;
+}
+
+.trending-article{
+
+}
+
+.trending-article .primary-article.dark-gradient-btm:before {
+	content: '';position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1) );
+}
+.trending-article .primary-article{
+	min-height: 615px;
+	background-repeat: no-repeat;
+	color: #FFFFFF;
+	position: relative;
+}
+.trending-article .primary-article .caption{
+	position: absolute;
+	bottom: 1em;
+}
+.trending-article .secondary-article{
+	min-height: 200px;
+	background-repeat: no-repeat;
+	margin-bottom: 8px;
+}
+
+.trending-article .secondary-article .caption{
+	min-height: 200px;
+}
+
+.trending-article .social-action{
+	float: right;
+}
+
+.trending-article .badge {
+	background-color: #BAE885;
+	border-radius: 0px;
+	font-weight: normal;
+	line-height: 1.6;
+	margin-top: 6px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: 2px;
+	color: #4A4A4A;
+}
+
+/* POPULAR TAGS */
+.popular-tags h2{
+	float: left;
+}
+.popular-tags .tags{
+	float: left;
+	padding-top: 1.5em;
+	padding-left: .5em;
+}
+.popular-tags .tags .badge {
+	background-color: #E9E9E9;
+	border-radius: 0px;
+	font-weight: normal;
+	line-height: 1.6;
+	margin-top: 6px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: 2px;
+	color: #4A4A4A;
+}
+
+.popular-tags .tags .badge a {
+	color: #4A4A4A;
+}
+
+/* 4-COLUMN LIFESTAGES */
+.tile-body{
+	width: 100%;
+}
+
+/* ARTICLES BY AUTHOR */
+.author-description.filter-by-author{
+	line-height:1;
+}
+
+/* PERSONALISATION TOOL */
+.personalisation-tool{
+	color: #FFFFFF;
+}
+
+.personalisation-tool .container{
+	position: relative;
+}
+.personalisation-tool label{
+	font-weight: normal;
+	cursor: hand;
+}
+.personalisation-tool .img-circle {
+	display: inline-block;
+	width: 130px;
+	height: 130px;
+	padding-top: 6px;
+	margin: 15px 10px;
+	background-color: rgba(255, 255, 255, 0);
+	border: solid 2px #FFFFFF;
+	font-size: 4em;
+	position: relative;
+}
+
+.personalisation-tool input[type="radio"]:checked+div,.personalisation-tool input[type="checkbox"]:checked+div{
+	color: #4A4A4A;
+	background-color: #C7EAF8;
+	border: none;
+}
+.personalisation-tool .pt-dnd input[type="radio"]:checked+div{
+	color: #4A4A4A;
+	background-color: rgba(255,255,255,1);
+}
+.personalisation-tool .pt-buttons{
+	/*border-top: solid 1px #EFEFEF;*/
+}
+
+.personalisation-tool input[type=button],.personalisation-tool input[type=submit],.personalisation-tool input[type=checkbox]{
+	display: none;
+}
+
+.personalisation-tool .pt-checkbox.disabled,.personalisation-tool .pt-checkbox.disabled .img-circle{
+	opacity: 0.6;
+}
+
+.personalisation-tool .pt-buttons .picon{
+	font-size: 4em;
+}
+
+.personalisation-tool [draggable] {
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	/* Required to make elements draggable in old WebKit */
+	-khtml-user-drag: element;
+	-webkit-user-drag: element;
+}
+
+.personalisation-tool .pt-dnd .img-circle{
+	background-color: #C7EAF8;
+	border: none;
+	color: #4A4A4A;
+}
+
+.personalisation-tool .pt-dnd .img-circle-number {
+	border: 1px solid #00A1E0;
+	background-color: #00A1E0;
+	color: #FFFFFF;
+	border-radius: 50%;
+	padding: 10px;
+	position: absolute;
+	top: 0px;
+	left: 104px;
+	width: 26%;
+	font-weight: bold;
+	font-size: 18px;
+	z-index: 99;
+}
+
+.personalisation-tool .pt-dnd label{
+	cursor: move;
+}
+
+.personalisation-tool .pt-dnd label.over{
+	border: 1px dotted rgba(255,255,255,0.6);
+}
+.personalisation-tool .pt-dnd-container{
+	float: none;
+	padding-left: 3em;
+}
+.personalisation-tool .pt-dnd-icon{
+	position: relative;
+	float: left;
+}
+
+.personalisation-tool .pt-dnd .pt-dnd-priority-box{
+	border: dashed 1px #ffffff;
+	width: 220px;
+	height: 210px;
+	float: left;
+	margin: 5px;
+	position: relative;
+}
+
+.personalisation-tool .priority-filler{
+	width: 218px;
+	height: 208px;
+	margin-left: -15px;
+}
+
+.personalisation-tool .pt-dnd .pt-dnd-priority-box.no-border{
+	border: none;
+}
+
+.priority-number{
+	font-size: 5em;
+	position: absolute;
+	top: 20%;
+	left: 40%;
+}
+.pt_button a,
+.pt_button a:hover,
+.pt_button a:active,
+.pt_button button,
+.pt_button button:hover,
+.pt_button button:active {
+	color: #ffffff;
+	text-decoration: none;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+.personalisation-tool .personalisation-questions {
+	height:580px;
+	max-height:580px;
+	overflow: hidden;
+}
+.fieldset-class {
+	height:600px;;
+}
